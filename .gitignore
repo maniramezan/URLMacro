@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.playground/timeline.xctimeline
+*.playground/playground.xcworkspace

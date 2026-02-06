@@ -1,0 +1,6 @@
+version: 1
+builder:
+  configs:
+    - documentation_targets: [URLMacro]
+      swift_version: "6.0"
+      platform: macosSpm
