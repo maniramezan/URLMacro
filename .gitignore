@@ -6,5 +6,6 @@ Package.resolved
 *.xcworkspace
 xcuserdata/
 DerivedData/
+.claude/settings.local.json
 *.playground/timeline.xctimeline
 *.playground/playground.xcworkspace
