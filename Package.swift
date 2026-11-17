@@ -12,7 +12,7 @@ let package = Package(
     .library(name: "URLMacro", targets: ["URLMacro"])
   ],
   dependencies: [
-    .package(url: "https://github.com/maniramezan/TestCommonsMacroTesting.git", from: "0.1.0"),
+    .package(url: "https://github.com/maniramezan/SwiftMacroTestCommons.git", from: "0.2.0"),
     .package(url: "https://github.com/swiftlang/swift-syntax", "600.0.0"..<"700.0.0"),
     .package(url: "https://github.com/swiftlang/swift-format", "600.0.0"..<"700.0.0"),
   ],
@@ -33,7 +33,7 @@ let package = Package(
       dependencies: [
         "URLMacro",
         "URLMacroMacros",
-        .product(name: "TestCommonsMacroTesting", package: "TestCommonsMacroTesting"),
+        .product(name: "SwiftMacroTestCommons", package: "SwiftMacroTestCommons"),
       ]
     ),
   ],
