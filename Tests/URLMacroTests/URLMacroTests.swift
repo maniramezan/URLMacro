@@ -1,6 +1,6 @@
 import Foundation
+import SwiftMacroTestCommons
 import SwiftSyntaxMacros
-import TestCommonsMacroTesting
 import Testing
 import URLMacro
 
